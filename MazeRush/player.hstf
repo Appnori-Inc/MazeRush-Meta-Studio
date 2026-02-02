@@ -1,0 +1,45 @@
+{
+    "version": 5,
+    "entities": [
+        {
+            "id": "ec859a24-a822-40de-a86c-817ae089c7b4",
+            "name": "Player",
+            "components": [
+                {
+                    "data": {
+                        "class": "horizon::platform_api::PlayerPlatformComponent",
+                        "version": 10,
+                        "data": {}
+                    },
+                    "dataType": "horizon::DataDefinitionAsset"
+                },
+                {
+                    "data": {
+                        "class": "horizon::platform_api::TransformPlatformComponent",
+                        "version": 2,
+                        "data": {}
+                    },
+                    "dataType": "horizon::DataDefinitionAsset"
+                },
+                {
+                    "data": {
+                        "class": "horizon::platform_api::AvatarPlatformComponent",
+                        "version": 1,
+                        "data": {}
+                    },
+                    "dataType": "horizon::DataDefinitionAsset"
+                },
+                {
+                    "data": {
+                        "class": "horizon::platform_api::AvatarAnimatorPlatformComponent",
+                        "version": 1,
+                        "data": {}
+                    },
+                    "dataType": "horizon::DataDefinitionAsset"
+                }
+            ],
+            "attributes": []
+        }
+    ],
+    "relationships": []
+}

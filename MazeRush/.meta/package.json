@@ -1,0 +1,15 @@
+{
+    "id": "8005784934535184543",
+    "author": "kwonminjaesteam",
+    "name": "MazeRush",
+    "dependencies": [
+        {
+            "name": "meta/worlds_sdk",
+            "version": "*"
+        },
+        {
+            "name": "meta/editor_starter_kit",
+            "version": "1.5.0"
+        }
+    ]
+}
